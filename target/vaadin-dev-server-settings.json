@@ -1,0 +1,14 @@
+{
+  "frontendFolder": "C:/Users/Fillheat/Documents/Skola/12 Java web-services/myTodo/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/Fillheat/Documents/Skola/12 Java web-services/myTodo/target/flow-frontend",
+  "staticOutput": "C:/Users/Fillheat/Documents/Skola/12 Java web-services/myTodo/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "frontendBundleOutput": "C:\\Users\\Fillheat\\Documents\\Skola\\12 Java web-services\\myTodo\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "addonFrontendFolder": "target/flow-frontend/",
+  "themeName": "",
+  "clientServiceWorkerSource": "C:\\Users\\Fillheat\\Documents\\Skola\\12 Java web-services\\myTodo\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

@@ -7,6 +7,7 @@ import com.vaadin.flow.component.checkbox.Checkbox;
 import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
+import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.router.Route;
@@ -14,8 +15,8 @@ import com.vaadin.flow.theme.Theme;
 import com.vaadin.flow.theme.lumo.Lumo;
 
 @Route("")
-//@Theme(value = Lumo.class, variant = Lumo.DARK)
-public class TodoView extends VerticalLayout {
+@Theme(variant = Lumo.DARK)
+public class TodoView extends VerticalLayout implements AppShellConfigurator {
 
     private TodoRepo repo;
     TextFieldClearButton taskField = new TextFieldClearButton();
